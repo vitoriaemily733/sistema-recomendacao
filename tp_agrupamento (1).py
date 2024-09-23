@@ -12,13 +12,13 @@ from sklearn.cluster import KMeans
 
 #matriz simples de avaliações dos filmes
 filmes_assistidos = np.array([
-    [1, 0, 0, 1],
-    [1, 1, 0, 0],
-    [0, 1, 1, 0],
-    [0, 0, 1, 1],
-    [1, 0, 1, 0],
-    [0, 1, 0, 1]
-
+    [1, 0, 0, 1, 0, 1],
+    [1, 1, 0, 0, 1, 0],
+    [0, 1, 1, 0, 0, 0],
+    [0, 0, 1, 1, 1, 1],
+    [1, 0, 1, 0, 0, 0],
+    [0, 1, 0, 1, 1, 0],
+    [0, 0, 1, 1, 0, 1]
 ])
 
 #treinar o modelo
